@@ -177,15 +177,7 @@ python -m venv .venv
 .venv\Scripts\activate
 ```
 
-### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Ensure `requirements.txt` lists the third-party packages used by the project, including `pandas`.
-
-### 4. Generate the Dataset
+### 3. Generate the Dataset
 
 ```bash
 python data_generator.py
@@ -193,7 +185,7 @@ python data_generator.py
 
 This generates `data/routes.csv`.
 
-### 5. Run the Optimizer
+### 4. Run the Optimizer
 
 ```bash
 python main.py
@@ -201,19 +193,19 @@ python main.py
 
 The recommended routes are saved to `data/recommendations.csv`.
 
-### 6. Evaluate Recommendations
+### 5. Evaluate Recommendations
 
 ```bash
 python evaluation.py
 ```
 
-### 7. Run Sensitivity Analysis
+### 6. Run Sensitivity Analysis
 
 ```bash
 python sensitivity_analysis.py
 ```
 
-### 8. Verify Results
+### 7. Verify Results
 
 ```bash
 python verify_results.py
