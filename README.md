@@ -165,8 +165,6 @@ git clone <https://github.com/manognakundam/shipment-route-optimizer>
 cd Shipment-Route-Optimizer
 ```
 
-Replace the placeholder with your GitHub repository URL.
-
 ### 2. Create a Virtual Environment
 
 For Windows:
@@ -209,8 +207,6 @@ python sensitivity_analysis.py
 ```bash
 python verify_results.py
 ```
-
-Run the commands from the project root directory. Generate the dataset before running the optimizer if you want to recreate the sample data.
 
 ## Validation
 
