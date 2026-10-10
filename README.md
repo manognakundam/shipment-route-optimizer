@@ -43,7 +43,6 @@ Shipment-Route-Optimizer/
 ├── sensitivity_analysis.py
 ├── verify_results.py
 ├── test_scorer.py
-├── requirements.txt
 
 
 ## Dataset
