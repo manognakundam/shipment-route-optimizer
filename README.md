@@ -162,7 +162,7 @@ The results demonstrate that changing decision priorities can influence route se
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone <https://github.com/manognakundam/shipment-route-optimizer>
 cd Shipment-Route-Optimizer
 ```
 
